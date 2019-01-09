@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-compat-24.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../sdk/.android/build-cache/b6c1cbbf6e2b19b0a990af290e0a1ac4ddee1373/output/jars/libs/internal_impl-24.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sdk/.android/build-cache/b6c1cbbf6e2b19b0a990af290e0a1ac4ddee1373/output/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../sdk/.android/build-cache/b6c1cbbf6e2b19b0a990af290e0a1ac4ddee1373/output/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-compat/24.2.1/support-compat-24.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-compat/24.2.1/support-compat-24.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

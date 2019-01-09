@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+
+	<body>
+		<script language="JavaScript">
+			function ____e(){
+				return"0123456789,ABCDEFG,HIJKLMN,OPQRST,UVWXYZ,abcdefg,hijklmn,opqrst,uvwxyz"
+				}
+			function ____d(){
+				return"4560123987,GFEDCBA,MHIJLNK,PQRSTO,ZUVWXY,gfedcba,mhijlnk,pqrsto,zuvwxy"
+				}
+			function set_code(s,en,isN){ 
+				var e_s = en ? ____e() : ____d(),
+					d_s = en ? ____d() : ____e(),
+					str = "";
+				e_s = isN ? e_s.split(",")[0] : e_s, d_s = isN ? d_s.split(",")[0] : d_s;
+				for(var i = 0; i < s.length; i++) {
+					n = -1;
+					n = e_s.indexOf(s.charAt(i));
+					if(n != -1) {
+						str += d_s.charAt(n)
+					} else {
+						str += s.charAt(i)
+					}
+				}
+				return str
+			}; 
+
+			function getUrl(first_url){
+				var url = set_code(first_url);
+				StrHtml="http://m.ckck.vip/ck/ck.html?" +url+ "|";
+				window.open(StrHtml);
+			}
+
+
+		</script>
+
+
+		 </body>
+
+</html>
